@@ -1,7 +1,14 @@
-# NEUROML2020
-Skoltech course on Machine Learning in Neuroimaging data, Fall 2020.
+# seminar-4
 
-## Course description:
+GLM Seminar
 
 
-### Datasets used:
+1.First follow the instruction for geting the docker image:
+
+https://miykael.github.io/nipype_tutorial/notebooks/introduction_docker.html
+
+2.Then clone this repository.
+
+3.Then run the container and mount the folder:
+
+docker run -it --rm -p 8888:8888 -v /path_to_seminar-4:/home/neuro/nipype_tutorial/seminar miykael/nipype_tutorial jupyter notebook 
