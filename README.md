@@ -28,4 +28,5 @@ This course is specifically aimed at MSc and PhD students with basic knowledge o
 
 #### Software used (please get a personal account and complete usage agreement):
 * FreeSurfer https://surfer.nmr.mgh.harvard.edu/
-* DmriPrep
+* FmriPrep https://fmriprep.org/en/stable/
+* Docker https://www.docker.com/
