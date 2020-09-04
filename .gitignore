@@ -7,3 +7,4 @@ subject_name1Warp.nii.gz
 subject_nameInverseWarped.nii.gz
 subject_nameWarped.nii.gz
 T1_fs_preprocessed.nii
+.vscode
