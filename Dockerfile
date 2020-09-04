@@ -128,7 +128,6 @@ RUN "/neurodocker/startup.sh"
 
 ENTRYPOINT ["bash", "-c", "/entrypoint.sh"]
 
-
 RUN echo '{ \
     \n  "pkg_manager": "apt", \
     \n  "instructions": [ \
