@@ -19,7 +19,7 @@ This course is specifically aimed at MSc and PhD students with basic knowledge o
     3) Run docker locally and ensure it working with command `docker run hello-world`
     4) In terminal: `cd to NEUROML/seminar2`
     5) Type command `docker build -t neuroml/seminar2:0.0.1` and wait for successfull build
-    6) Run `docker run --rm -it -v /directory/to/downloaded/data:/workspace/data -p 8080:8080 neuroml/seminar2:0.0.1
+    6) Run `docker run --rm -it -v /directory/to/downloaded/data:/workspace/data -p 8080:8080 neuroml/seminar2:0.0.1`
     7) Open browser (preferebly Chrome) -> localhost:8080
   * Before the seminar you are to install FreeSurfer https://surfer.nmr.mgh.harvard.edu/
 * SEMINAR 3 (04.09) Machine Learning for structural MRI data analysis
