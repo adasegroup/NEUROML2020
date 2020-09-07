@@ -38,10 +38,29 @@ RUN apt-get update -qq \
            grep \
            less \
            wget \
-           bzip2 \
            make \
     && apt-get clean \
     && rm -rf /var/lib/apt/lists/*
+
+ENV PATH="/opt/dcm2niix-latest/bin:$PATH"
+RUN apt-get update -qq \
+    && apt-get install -y -q --no-install-recommends \
+           cmake \
+           g++ \
+           gcc \
+           git \
+           make \
+           pigz \
+           zlib1g-dev \
+    && apt-get clean \
+    && rm -rf /var/lib/apt/lists/* \
+    && git clone https://github.com/rordenlab/dcm2niix /tmp/dcm2niix \
+    && mkdir /tmp/dcm2niix/build \
+    && cd /tmp/dcm2niix/build \
+    && cmake  -DCMAKE_INSTALL_PREFIX:PATH=/opt/dcm2niix-latest .. \
+    && make \
+    && make install \
+    && rm -rf /tmp/dcm2niix
 
 ENV ANTSPATH="/opt/ants-2.2.0" \
     PATH="/opt/ants-2.2.0:$PATH"
@@ -102,6 +121,7 @@ RUN export PATH="/opt/miniconda-latest/bin:$PATH" \
            'nilearn' \
            'traits' \
            'nipype' \
+           'seaborn' \
     && sync && conda clean --all && sync
 
 RUN wget https://ftpmirror.gnu.org/parallel/parallel-20190222.tar.bz2 \
@@ -119,8 +139,6 @@ COPY ./entrypoint.sh /entrypoint.sh
 
 RUN chmod +x /workspace/multiproc.sh \
             /entrypoint.sh
-
-
 
 RUN "/neurodocker/startup.sh"
 
@@ -140,6 +158,13 @@ RUN echo '{ \
     \n      [ \
     \n        "vim" \
     \n      ] \
+    \n    ], \
+    \n    [ \
+    \n      "dcm2niix", \
+    \n      { \
+    \n        "version": "latest", \
+    \n        "method": "source" \
+    \n      } \
     \n    ], \
     \n    [ \
     \n      "ants", \
