@@ -1,0 +1,10 @@
+data
+100206
+sub-100206_MNI159_space.nii.gz
+subject_name0GenericAffine.mat
+subject_name1InverseWarp.nii.gz
+subject_name1Warp.nii.gz
+subject_nameInverseWarped.nii.gz
+subject_nameWarped.nii.gz
+T1_fs_preprocessed.nii
+.vscode

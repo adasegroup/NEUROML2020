@@ -1,0 +1,34 @@
+FROM poldracklab/fmriprep:1.1.8
+
+ENV DEBIAN_FRONTEND noninteractive
+
+RUN apt-get update -qq && \
+        apt-get install --yes --no-install-recommends \
+        curl g++ wget ca-certificates libxt6 libxrandr2 patch unzip zip pigz jq cmake moreutils time bzip2
+
+RUN wget https://ftpmirror.gnu.org/parallel/parallel-20190222.tar.bz2 \
+    && bzip2 -dc parallel-20190222.tar.bz2 | tar xvf - \
+    && cd parallel-20190222 \
+    && ./configure && make && make install \
+    && mkdir -p /workspace
+
+ENV TERM xterm-color \
+    LANG=C.UTF-8 \
+    LC_ALL=C.UTF-8 \
+    HOME /workspace
+
+WORKDIR /workspace
+
+RUN pip install nipype nilearn sklearn plumbum \
+    && sync
+    
+RUN pip install --upgrade pip \
+    && pip install jupyter jupyterlab \
+    && sync
+    
+    
+COPY license.txt /opt/freesurfer/license.txt
+
+EXPOSE 8080
+
+ENTRYPOINT ["/usr/local/miniconda/bin/jupyter", "lab", "--ip=0.0.0.0", "--port 8080", "--allow-root", "--NotebookApp.token=''" "--notebook-dir='/workdir'"]
