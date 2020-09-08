@@ -14,13 +14,15 @@ This course is specifically aimed at MSc and PhD students with basic knowledge o
 * SEMINAR 1 (04.09) EEG analysis, Machine Learning in EEG
 * SEMINAR 2 (04.09) MRI data analysis, sources, databases, tools 
   * Before seminar, please, do the following:
-    1) Download data from link https://drive.google.com/drive/folders/1P0ZhS1EoDY6fncnJb7foNFPjY5uoN6r0?usp=sharing
-    2) Clone repository to your local machine
-    3) Run docker locally and ensure it working with command `docker run hello-world`
-    4) In terminal: `cd to NEUROML/seminar2`
-    5) Type command `docker build -t neuroml/seminar2:0.0.1` and wait for successfull build
-    6) Run `docker run --rm -it -v /directory/to/downloaded/data:/workspace/data -p 8080:8080 neuroml/seminar2:0.0.1`
-    7) Open browser (preferebly Chrome) -> localhost:8080
+    1) Install Docker https://docs.docker.com/get-docker/
+    2) Download `data` folder from link https://drive.google.com/drive/folders/12FAfkKwGVsz0nYjkodvXMLtqtoWlEtIq?usp=sharing
+    3) Clone repository to your local machine
+    4) Run docker locally and ensure it working with command `docker run hello-world`
+    5) In terminal: `cd NEUROML/seminar2`
+    6) Type command `docker build -t neuroml/seminar2:0.0.1` and wait for successfull build
+    7) Run `docker run --rm -it -v /directory/to/downloaded/data:/workspace/data -p 8080:8080 neuroml/seminar2:0.0.1`
+    * `/directory/to/downloaded/data` from 2)
+    8) Open browser (preferebly Chrome) -> localhost:8080
   * Before the seminar you are to install FreeSurfer https://surfer.nmr.mgh.harvard.edu/
 * SEMINAR 3 (04.09) Machine Learning for structural MRI data analysis
   * Before the seminar you are to get an account and granted access here https://db.humanconnectome.org/data/projects/HCP_1200
