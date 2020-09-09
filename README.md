@@ -16,9 +16,9 @@ This course is specifically aimed at MSc and PhD students with basic knowledge o
   * Before seminar, please, do the following:
     1) Download data from link https://drive.google.com/drive/folders/1P0ZhS1EoDY6fncnJb7foNFPjY5uoN6r0?usp=sharing
     2) Clone repository to your local machine
-    3) Run docker locally and ensure it working with command `docker run hello-world`
-    4) In terminal: `cd to NEUROML/seminar2`
-    5) Type command `docker build -t neuroml/seminar2:0.0.1` and wait for successfull build
+    3) Run docker locally and ensure it is working with command `docker run hello-world`
+    4) Change your working directory `cd to NEUROML2020/seminar2`
+    5) Type command `docker build -t neuroml/seminar2:0.0.1 . ` and wait for successfull build
     6) Run `docker run --rm -it -v /directory/to/downloaded/data:/workspace/data -p 8080:8080 neuroml/seminar2:0.0.1`
     7) Open browser (preferebly Chrome) -> localhost:8080
 * SEMINAR 3 (18.09) Machine Learning for structural MRI data analysis
