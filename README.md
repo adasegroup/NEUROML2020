@@ -15,7 +15,7 @@ This course is specifically aimed at MSc and PhD students with basic knowledge o
 * SEMINAR 2 (14.09) MRI data analysis, sources, databases, tools 
   * Before seminar, please, do the following:
     1) Install Docker https://docs.docker.com/get-docker/
-    2) Download `data` folder from link https://drive.google.com/drive/folders/12FAfkKwGVsz0nYjkodvXMLtqtoWlEtIq?usp=sharing
+    2) Download `data` folder from link https://drive.google.com/drive/folders/1P0ZhS1EoDY6fncnJb7foNFPjY5uoN6r0
     3) Clone repository to your local machine
     4) Run docker locally and ensure it working with command `docker run hello-world`
     5) In terminal: `cd NEUROML/seminar2`
