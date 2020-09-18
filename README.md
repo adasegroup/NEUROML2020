@@ -24,12 +24,12 @@ This course is specifically aimed at MSc and PhD students with basic knowledge o
     * `/directory/to/downloaded/data` from 2)
     8) Open browser (preferebly Chrome) -> localhost:8080
   * Before the seminar you are to install FreeSurfer https://surfer.nmr.mgh.harvard.edu/
-* SEMINAR 3 (04.09) Machine Learning for structural MRI data analysis
+* SEMINAR 3 (18.09) Machine Learning for structural MRI data analysis
   * Before the seminar you are to get an account and granted access here https://db.humanconnectome.org/data/projects/HCP_1200
-* SEMINAR 4 (04.09) fMRI data preprocessing, analysis, GLM
-* SEMINAR 5 (04.09) Functional connectivity analysis and Machine Learning modelling
-* SEMINAR 6 (04.09) Deep Learning models and fMRI data analysis
-* SEMINAR 7 (04.09) Advanced topics: ML engeneering pipelines, domain adaptation, brain visualization
+* SEMINAR 4 (21.09) fMRI data preprocessing, analysis, GLM
+* SEMINAR 5 (25.09) Functional connectivity analysis and Machine Learning modelling
+* SEMINAR 6 (28.09) Deep Learning models and fMRI data analysis
+* SEMINAR 7 (02.10) Advanced topics: ML engeneering pipelines, domain adaptation, brain visualization
 
 #### Datasets used (please get a personal account and complete data use agreement):
 * Human Connectome Project https://db.humanconnectome.org/data/projects/HCP_1200
