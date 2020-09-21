@@ -1,0 +1,6 @@
+digraph structs {
+node [shape=record];
+helloa_x_b [label="{IN}|{ a_x_b | utility |  }|{OUT|<outmultiplyresult> multiply_result}"];
+helloa_plus_b [label="{IN|<ina> a}|{ a_plus_b | utility |  }|{OUT}"];
+helloa_x_b:outmultiplyresult:e -> helloa_plus_b:ina:w;
+}
