@@ -1,0 +1,5 @@
+strict digraph  {
+"a_x_b (utility)";
+"a_plus_b (utility)";
+"a_x_b (utility)" -> "a_plus_b (utility)";
+}
