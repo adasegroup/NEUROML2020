@@ -11,7 +11,7 @@ This course is specifically aimed at MSc and PhD students with basic knowledge o
 ### The list of the current seminars published (will be updated with time):
 
 * SEMINAR 0 (04.09) BASH for Engeneering pipelines, CometML
- * Before seminar you are to install Docker https://www.docker.com/
+   Before seminar you are to install Docker https://www.docker.com/
  
 * SEMINAR 1 (07.09, 11.09) EEG analysis, Machine Learning in EEG
 
