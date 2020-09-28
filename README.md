@@ -33,9 +33,9 @@ This course is specifically aimed at MSc and PhD students with basic knowledge o
     2) Clone the `seminar4` repository
     3) Run the container and mount the folder: docker run -it --rm -p 8888:8888 -v /path_to_seminar-4:/home/neuro/nipype_tutorial/notebooks/seminar miykael/nipype_tutorial jupyter notebook
     4) Dowload the data from: https://www.openfmri.org/dataset/ds000114/ 
-* SEMINAR 5 (25.09) Functional connectivity analysis and Machine Learning modelling
-* SEMINAR 6 (28.09) Deep Learning models and fMRI data analysis
-* SEMINAR 7 (02.10) Advanced topics: ML engeneering pipelines, domain adaptation, brain visualization
+* SEMINAR 5 (28.09) Functional connectivity analysis and Machine Learning modelling
+* SEMINAR 6 (02.10) Deep Learning models and fMRI data analysis
+* SEMINAR 7 (05.10) Advanced topics: ML engeneering pipelines
 
 #### Datasets used (please get a personal account and complete data use agreement):
 * Human Connectome Project https://db.humanconnectome.org/data/projects/HCP_1200
