@@ -1,6 +1,10 @@
 # NEUROML2020:
+
+
 ## Neuroimaging and Machine Learning for Biomedicine
 This is a repository containing seminars and lecture materials for the Skoltech course on Machine Learning in Neuroimaging data, Fall 2020.
+
+Course NOTION page: https://www.notion.so/NEUROML2020-3d6cfa86f9a84102a8bf610026d6b3c0
 
 Course by NeuroML ADASE lab: http://adase.group/neuro/
 
