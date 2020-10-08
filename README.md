@@ -4,9 +4,13 @@
 ## Neuroimaging and Machine Learning for Biomedicine
 This is a repository containing seminars and lecture materials for the Skoltech course on Machine Learning in Neuroimaging data, Fall 2020.
 
-Course NOTION page: https://www.notion.so/NEUROML2020-3d6cfa86f9a84102a8bf610026d6b3c0
+## Main links
 
-Course by NeuroML ADASE lab: http://adase.group/neuro/
+- [:brain: Notion course main page](https://www.notion.so/NEUROML2020-3d6cfa86f9a84102a8bf610026d6b3c0)
+- [📄 Syllabus](http://files.skoltech.ru/data/edu/syllabuses/2020/MA030406.pdf)
+- [:cupid: Lab Page](http://adase.group/neuro/)
+- [✈️ Telegram Channel](https://t.me/joinchat/DAQqYxoc_gAgeqiBZCSmyA)
+
 
 ## Course description:
 This course is specifically aimed at MSc and PhD students with basic knowledge of Machine Learning techniques pursuing further growth in neuroimaging data analysis, either in clinical practice or in neuroscience research. The course will provide you with training in the aspects of human neuroimaging methods, data properties and applied Machine Learning techniques. The course is focused on brain biophysics, scanning techniques and methods of data analysis. Students will develop a broad set of skills that are essential to study brain function, brain pathology and solve biomedical tasks with state-of-the-art Machine Learning and Computer Vision techniques.​
