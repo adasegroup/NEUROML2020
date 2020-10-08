@@ -7,7 +7,7 @@ This is a repository containing seminars and lecture materials for the Skoltech 
 ## Main links
 
 - [:brain: Notion course main page](https://www.notion.so/NEUROML2020-3d6cfa86f9a84102a8bf610026d6b3c0)
-- [📄 Syllabus](http://files.skoltech.ru/data/edu/syllabuses/2020/MA030406.pdf)
+- [📄 Syllabus](https://skoltech.instructure.com/courses/2787/files?preview=192414)
 - [:cupid: Lab Page](http://adase.group/neuro/)
 - [✈️ Telegram Channel](https://t.me/joinchat/DAQqYxoc_gAgeqiBZCSmyA)
 
