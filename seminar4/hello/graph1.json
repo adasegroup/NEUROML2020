@@ -21,14 +21,14 @@
         {
             "group": 1,
             "name": "0_a_x_b",
-            "report": "/tmp/tmpwd77m2ma/a_x_b/_report/report.rst",
-            "result": "/tmp/tmpwd77m2ma/a_x_b/result_a_x_b.pklz"
+            "report": "/tmp/tmpqiswn1p2/a_x_b/_report/report.rst",
+            "result": "/tmp/tmpqiswn1p2/a_x_b/result_a_x_b.pklz"
         },
         {
             "group": 1,
             "name": "1_a_plus_b",
-            "report": "/tmp/tmp84s7w8vu/hello/a_plus_b/_report/report.rst",
-            "result": "/tmp/tmp84s7w8vu/hello/a_plus_b/result_a_plus_b.pklz"
+            "report": "/tmp/tmp0fyw6mdm/hello/a_plus_b/_report/report.rst",
+            "result": "/tmp/tmp0fyw6mdm/hello/a_plus_b/result_a_plus_b.pklz"
         }
     ]
 }
